@@ -1,9 +1,10 @@
+import InputWindow from "./components/InputWindow"
 
 export default function App() {
 
     return (
         <>
-        <div>this is an input field</div>
+        <InputWindow />
         <div>this is an output field</div>
         </>
     );
