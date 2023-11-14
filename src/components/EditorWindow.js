@@ -1,5 +1,5 @@
 
-export default function InputWindow () {
+export default function EditorWindow () {
     return (
         <div>
             <div>
@@ -12,6 +12,6 @@ export default function InputWindow () {
 
 function InputField () {
     return (
-        <input type='text'></input>
+        <textarea></textarea>
     )
 }

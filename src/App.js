@@ -1,11 +1,12 @@
-import InputWindow from "./components/InputWindow"
+import EditorWindow from "./components/EditorWindow"
+import PreviewWindow from "./components/PreviewWindow"
 
 export default function App() {
 
     return (
         <>
-        <InputWindow />
-        <div>this is an output field</div>
+        <EditorWindow />
+        <PreviewWindow />
         </>
     );
 }
