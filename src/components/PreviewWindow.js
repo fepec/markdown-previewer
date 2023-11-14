@@ -1,16 +1,16 @@
 
-export default function PreviewWindow () {
+export default function PreviewWindow (props) {
     return (
         <div>
             <div>
                 <h1>This is my Preview Window</h1>
-                <PreviewArea />
+                <PreviewArea text={props.text}/>
             </div>
         </div>
     )
 }
 
-function PreviewArea () {
+function PreviewArea (props) {
     return <div>
         My output goes here.
     </div>
