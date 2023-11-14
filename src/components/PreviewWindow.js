@@ -12,6 +12,8 @@ export default function PreviewWindow (props) {
 
 function PreviewArea (props) {
     return <div>
-        My output goes here.
+        <p>
+            {props.text}
+        </p>
     </div>
 }
