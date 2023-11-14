@@ -1,17 +1,14 @@
 
-export default function EditorWindow () {
+export default function EditorWindow (props) {
     return (
         <div>
             <div>
                 <h1>This is my input field</h1>
-                <InputField />
+                <textarea onChange={props.handleChange} value={props.text}></textarea>
+               
             </div>
         </div>
     )
 }
 
-function InputField () {
-    return (
-        <textarea></textarea>
-    )
-}
+// value={this.props.value} onChange={this.props.handleChange}
