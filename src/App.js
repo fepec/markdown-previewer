@@ -1,7 +1,7 @@
 import React from "react"
 import EditorWindow from "./components/EditorWindow"
 import PreviewWindow from "./components/PreviewWindow"
-
+import "./App.css"
 
 
 const defaultText = 'Hello Zuri'
@@ -28,11 +28,15 @@ export default class App extends React.Component {
     // renders
     render() {
         return (
-            <>
-                <h1>fepec's markdown previewer</h1>
-                <EditorWindow handleChange={this.handleChange} text={this.state.text} />
-                <PreviewWindow text={this.state.text} />
-            </>
+            <div className="container">
+                <div className="row">
+                    <h1>fepec's markdown previewer</h1>
+                </div>
+                <div className="row" >
+                    <EditorWindow handleChange={this.handleChange} text={this.state.text}  />
+                    <PreviewWindow text={this.state.text} className="col"/>
+                </div>
+            </div>
         );
     }
 }
