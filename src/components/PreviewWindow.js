@@ -19,6 +19,7 @@ function PreviewArea (props) {
         async: false,
         pedantic: false,
         gfm: true,
+        breaks: true
       });
 
     let html = {
