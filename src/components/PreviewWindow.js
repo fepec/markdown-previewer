@@ -6,7 +6,7 @@ export default function PreviewWindow (props) {
     return (
         <div className="col">
             
-                <h1>This is my Preview Window</h1>
+                <h2 className="title p-1">markdown preview window</h2>
                 <PreviewArea text={props.text}/>
             
         </div>
@@ -25,5 +25,5 @@ function PreviewArea (props) {
         __html: marked.parse(props.text)
     }
 
-    return <div dangerouslySetInnerHTML={html}></div>
+    return <div id="preview" className="p-2 overflow-auto" dangerouslySetInnerHTML={html}></div>
 }

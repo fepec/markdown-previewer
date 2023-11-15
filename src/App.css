@@ -1,3 +1,23 @@
-* {
+/* * {
     border: 1px solid black
+} */
+
+
+.title {
+    background-color: #333;
+    color: white
+}
+
+textarea {
+    background-color: #eee
+}
+
+#preview {
+    border: 1px solid #858585
+}
+
+pre>code {
+    display: block;
+    background-color: lightblue;
+    padding: 1rem;
 }
