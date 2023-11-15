@@ -22,6 +22,8 @@ or add some inline code like these divs \`<div></div>\` (soooo many divs).
 
 [Links] (https://www.freecodecamp.org) are also a possiblity.
 
+> This is a Block Quote
+
 - And of course there are lists.
   - Some are bulleted.
      - With different indentation levels.
@@ -30,7 +32,11 @@ or add some inline code like these divs \`<div></div>\` (soooo many divs).
 
 1. And there are numbered lists too.
 1. Use just 1s if you want!
-1. The numbering will work itself out!`
+1. The numbering will work itself out!
+
+And here's an image: 
+![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
+`
 
 export default class App extends React.Component {
 

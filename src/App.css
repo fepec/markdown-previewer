@@ -2,7 +2,6 @@
     border: 1px solid black
 } */
 
-
 .title {
     background-color: #333;
     color: white
@@ -14,6 +13,10 @@ textarea {
 
 #preview {
     border: 1px solid #858585
+}
+
+#editor {
+    min-height: 50vh;
 }
 
 pre>code {
